@@ -113,6 +113,8 @@ __BEGIN_DECLS
 #define AUDIO_PARAMETER_STREAM_FRAME_COUNT "frame_count"    // size_t
 #define AUDIO_PARAMETER_STREAM_INPUT_SOURCE "input_source"  // audio_source_t
 #define AUDIO_PARAMETER_STREAM_SAMPLING_RATE "sampling_rate" // uint32_t
+#define AUDIO_PARAMETER_TAS5711_POWER  "tas5711_power"       // tas5711 power
+#define AUDIO_PARAMETER_TAS5711_MASTER_VOLUME "tas5711_mvolume" // tas5711 master volume
 
 /* Query supported formats. The response is a '|' separated list of strings from
  * audio_format_t enum e.g: "sup_formats=AUDIO_FORMAT_PCM_16_BIT" */
